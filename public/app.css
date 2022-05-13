@@ -1,0 +1,139 @@
+.display-panel {
+    height: 100%;
+    justify-items: center;
+    align-items: center;
+    display: grid;
+}
+
+.login-panel {
+    height: 100%;
+    display: grid;
+    justify-items: center;
+    align-items: center;
+    padding: 10px;
+}
+
+.login-form {
+    padding: 10px;
+    align-self: flex-start;
+    display: grid;
+    justify-items: center;
+    align-items: center;
+}
+
+#login-username {
+    margin-bottom: 10px;
+    width: 70%;
+}
+
+.login-error {
+    display: grid;
+    justify-items: center;
+    align-items: center;
+    background-color: lightcoral;
+    font-weight: bold;
+    border: 1px solid brown;
+}
+
+.expired-session-error {
+    display: grid;
+    justify-items: center;
+    align-items: center;
+    background-color: lightcoral;
+    font-weight: bold;
+    border: 1px solid brown;
+}
+
+.login-input-error-info {
+    display: grid;
+    justify-items: center;
+    align-items: center;
+    font-style: italic;
+}
+
+.username {
+    font-size: small;
+}
+
+h2 {
+    font-size: small;
+}
+
+.word-list-panel {
+    margin: 10px;
+    font-size: medium;
+    justify-items: center;
+    align-items: center;
+    width: 75%;
+    padding: 10px;
+    border: 5px solid cadetblue;
+    border-radius: 10px;
+}
+
+.valid-guess:hover {
+    background-color: lightblue;
+    font-weight: bold;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.previous-guess {
+    margin-top: 10px;
+    font-size: medium;
+    font-weight: bold;
+    font-style: italic;
+    padding: 5px;
+    border-radius: 5px;
+    background-color: lightgrey;
+}
+
+.guess-word-submit-panel {
+    margin-top: 30px;
+    font-size: medium;
+    width: 50%;
+    padding: 10px;
+}
+
+.guess-result {
+    border-radius: 10px;
+    padding: 10px;
+    font-weight: bold;
+    background-color: lightpink;
+    margin-bottom: 10px;
+}
+
+#to-guess-word {
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.input-info {
+    display: grid;
+    justify-items: center;
+    align-items: center;
+    align-self: center;
+    font-style: italic;
+}
+
+.start-a-new-game-button {
+    justify-items: center;
+    align-items: center;
+    padding: 5px;
+    border-radius: 10px;
+}
+
+.login-button {
+    width: 100%;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.logout-button {
+    padding: 5px;
+    font-size:small;
+    border-radius: 10px;
+    background-color: cadetblue;
+    color: white;
+}
